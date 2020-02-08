@@ -1,9 +1,11 @@
 .App {
   text-align: center;
+  font-family: 'Lato' sans-serif; 
+  font-weight: 300; 
 }
 
 .App-header {
-  background-color: rgb(30, 68, 30);
+  background-color: rgb(111, 156, 177);
   min-height: 20vh;
   display: flex;
   flex-direction: column;
