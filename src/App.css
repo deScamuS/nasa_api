@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Lato' sans-serif; 
   font-weight: 300; 
+  background: rgb(255,255,255,0.4)
 }
 
 .App-header {
@@ -12,5 +13,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
+}
+img{ 
+  border: .3px solid gray;
+  border-radius: 50%; 
 }

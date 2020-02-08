@@ -4,9 +4,10 @@ body {
   font-weight: 300; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(0, 0, 0, 0.3)
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Lato,aXSXX Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

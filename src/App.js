@@ -43,11 +43,11 @@ class App extends React.Component {
         <div className='main'>
           <DateInput changeDate={this.changeDate} />
           <Photo photo={this.state.photo} />
-          <h2>Picture of the Day</h2>
+          <h2 style={{color: "black"}}>Picture of the Day</h2>
         </div>
       </div>
     );
-  }
+  }XSCCSSSXXXX
 }
 
 export default App;

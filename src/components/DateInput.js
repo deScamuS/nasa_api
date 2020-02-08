@@ -1,14 +1,14 @@
 import React from 'react'
-
+import Button from "react-bootstrap/Button"
 const DateInput = (props) => {
-    return(
-        
+    return (
+
         <form onSubmit={props.changeDate}>
-        <h3>Please enter a Date (YYYY-MM-DD):</h3>
-        <input />
-        <input type='submit'/>
+            <h3>Please enter a Date (YYYY-MM-DD):</h3>
+            <input />{' '}
+
+            <Button type='submit' variant="dark">GET PIC</Button>
         </form>
-      
     )
 }
 export default DateInput;
